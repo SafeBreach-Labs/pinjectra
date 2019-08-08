@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ExecutionTechniques">
+      <UniqueIdentifier>{f3e6cc6e-0e96-46da-99de-d6e9310dac5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Writing Techniques">
+      <UniqueIdentifier>{6def593e-7871-4acc-80cd-c26fba8b6c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Writing Techniques">
+      <UniqueIdentifier>{124f09f4-19fb-47da-9a09-2cd7d541dccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Execution Techniques">
+      <UniqueIdentifier>{5097eef9-2f8b-4840-a1c7-14b778d5f985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Providers">
+      <UniqueIdentifier>{f586a254-8fa2-43f8-8db3-e484707c885a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Providers">
+      <UniqueIdentifier>{11ee65a1-d3a1-4a5b-9454-d8564d10f8f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Payloads">
+      <UniqueIdentifier>{2122b4af-1aa9-4a17-a74a-08fca81a7e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Payloads">
+      <UniqueIdentifier>{9661bb73-e3be-4731-9002-6e13531d0d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Writing Techniques\Simple">
+      <UniqueIdentifier>{6dd2fd37-3a4c-47e9-b922-44b95f69c016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Writing Techniques\Advance">
+      <UniqueIdentifier>{5d53066f-5787-43e1-84c6-5a31d25103ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Writing Techniques\Complex">
+      <UniqueIdentifier>{6fb96738-80b2-4f1d-b8cc-9e588a785309}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PinjectraDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsHook.cpp">
+      <Filter>Source Files\ExecutionTechniques</Filter>
+    </ClCompile>
+    <ClCompile Include="LLA_GPA.cpp">
+      <Filter>Source Files\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateRemoteThread.cpp">
+      <Filter>Source Files\ExecutionTechniques</Filter>
+    </ClCompile>
+    <ClCompile Include="SIR.cpp">
+      <Filter>Source Files\ExecutionTechniques</Filter>
+    </ClCompile>
+    <ClCompile Include="QueueUserAPC.cpp">
+      <Filter>Source Files\ExecutionTechniques</Filter>
+    </ClCompile>
+    <ClCompile Include="CtrlInject.cpp">
+      <Filter>Source Files\ExecutionTechniques</Filter>
+    </ClCompile>
+    <ClCompile Include="ALPC.cpp">
+      <Filter>Source Files\ExecutionTechniques</Filter>
+    </ClCompile>
+    <ClCompile Include="PROPagate.cpp">
+      <Filter>Source Files\ExecutionTechniques</Filter>
+    </ClCompile>
+    <ClCompile Include="memmem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicPayloads.cpp">
+      <Filter>Source Files\Payloads</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticPayloads.c">
+      <Filter>Source Files\Payloads</Filter>
+    </ClCompile>
+    <ClCompile Include="SetWindowLongPtrA.cpp">
+      <Filter>Source Files\ExecutionTechniques</Filter>
+    </ClCompile>
+    <ClCompile Include="Adapters.cpp">
+      <Filter>Source Files\Writing Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GhostWriting.cpp">
+      <Filter>Source Files\Writing Techniques\Complex</Filter>
+    </ClCompile>
+    <ClCompile Include="CFMA_MVOF_OP_PNMVOS.cpp">
+      <Filter>Source Files\Writing Techniques\Simple</Filter>
+    </ClCompile>
+    <ClCompile Include="CFMA_MVOF_NUVOS_NMVOS.cpp">
+      <Filter>Source Files\Writing Techniques\Complex</Filter>
+    </ClCompile>
+    <ClCompile Include="NQAT_WITH_MEMSET.cpp">
+      <Filter>Source Files\Writing Techniques\Complex</Filter>
+    </ClCompile>
+    <ClCompile Include="OP_VAE_WPM.cpp">
+      <Filter>Source Files\Writing Techniques\Simple</Filter>
+    </ClCompile>
+    <ClCompile Include="OT_OP_VAE_GAAA.cpp">
+      <Filter>Source Files\Writing Techniques\Simple</Filter>
+    </ClCompile>
+    <ClCompile Include="VAE_WPM.cpp">
+      <Filter>Source Files\Writing Techniques\Advance</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WindowsHook.h">
+      <Filter>Header Files\Execution Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="ExecutionTechnique.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LLA_GPA.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="HookProcProvider.h">
+      <Filter>Header Files\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="OP_VAE_WPM.h">
+      <Filter>Header Files\Writing Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateRemoteThread.h">
+      <Filter>Header Files\Execution Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="WritingTechniques.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SIR.h">
+      <Filter>Header Files\Execution Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="CFMA_MVOF_OP_PNMVOS.h">
+      <Filter>Header Files\Writing Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="OT_OP_VAE_GAAA.h">
+      <Filter>Header Files\Writing Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueUserAPC.h">
+      <Filter>Header Files\Execution Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="CtrlInject.h">
+      <Filter>Header Files\Execution Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="ALPC.h">
+      <Filter>Header Files\Execution Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="VAE_WPM.h">
+      <Filter>Header Files\Writing Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="PROPagate.h">
+      <Filter>Header Files\Execution Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="memmem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NQAT_WITH_MEMSET.h">
+      <Filter>Header Files\Writing Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicPayloads.h">
+      <Filter>Header Files\Payloads</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticPayloads.h">
+      <Filter>Header Files\Payloads</Filter>
+    </ClInclude>
+    <ClInclude Include="PinjectraPacket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetWindowLongPtrA.h">
+      <Filter>Header Files\Execution Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="GhostWriting.h">
+      <Filter>Header Files\Writing Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFMA_MVOF_NUVOS_NMVOS.h">
+      <Filter>Header Files\Writing Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="ntapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
