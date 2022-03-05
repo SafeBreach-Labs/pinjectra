@@ -67,6 +67,7 @@ DWORD WINAPI message_loop(_In_ LPVOID lpParameter) {
 	return msg.wParam;
 }
 
+#if 0
 int protection_up() {
 	PROCESS_MITIGATION_DYNAMIC_CODE_POLICY policy1;
 	policy1.ProhibitDynamicCode = 1;
@@ -163,6 +164,7 @@ int protection_up() {
 int protection_down() {
 	return 1;
 }
+#endif
 
 void banner() {
 	int i;
@@ -203,6 +205,7 @@ void banner() {
 int main(int argc, char** argv) {
 	banner();
 
+#if 0
 	if (argc > 1) {
 		if (!strcmp(argv[1], "/PROT_UP")) {
 			printf("Process Protection Up ...\n");
@@ -217,6 +220,7 @@ int main(int argc, char** argv) {
 			return 0;
 		}
 	}
+#endif
 
 	printf("Creating Message Loop ...\n");
 
